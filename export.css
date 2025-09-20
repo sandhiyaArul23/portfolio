@@ -1,0 +1,254 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav.navbar {
+  background-color: #111;
+}
+
+nav .nav-link {
+  color: #fff !important;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+nav .nav-link:hover {
+  color: #facc15 !important;
+}
+
+.btn-custom {
+  margin: 5px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  transform: scale(1.1);
+}
+
+/* Hero Image in Circle */
+.hero-img-circle {
+  width: 250px;       /* adjust size */
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #facc15; /* orange border for style */
+}
+
+/* Equal Button Styles */
+.cv-btn {
+  width: 180px;   /* set same width */
+  height: 50px;   /* same height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+/* LinkedIn Icon inside button */
+.cv-btn .linkedin-icon {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+}
+
+.w-15 {
+  width: 15% !important;   /* Custom width */
+  min-width: 60px;         /* Prevent too small on mobile */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img:hover {
+  transform: scale(1.05);
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+   color: #facc15;
+  text-align: center;
+}
+
+.card-custom {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-custom:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 20px rgba(249,115,22,0.4);
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.tag {
+  display: inline-block;
+  background: #222;
+  border-radius: 20px;
+  padding: 5px 15px;
+  margin: 5px;
+  color: #facc15;
+  font-size: 0.9rem;
+}
+.icon{
+    cursor: pointer;
+  height: 2rem;
+  color: #fff;
+align-items: center;
+}
+.card-custom {
+  background: #fff;   /* Yellow */
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  color: #000;           /* Black text */
+  transition: all 0.3s ease;
+}
+
+.card-custom:hover {
+  background: #facc15;      /* White on hover */
+  color: #000;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+
+.card-custom .icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.profile-img {
+  width: 100%;             
+  border-radius: 10px;          
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Prevent Bootstrap rows from overflowing */
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Make sure images scale properly */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* Flip Card Container */
+.flip-card {
+  background: transparent;
+  width: 100%;
+  height: 200px;
+  perspective: 1000px; /* 3D flip effect */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Flip on hover */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* hides back when front visible */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #facc15;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Front Side */
+.flip-card-front {
+  background: #fff;
+  color: #000;
+}
+
+/* Back Side */
+.flip-card-back {
+  background: #facc15;
+  color: #111;
+  transform: rotateY(180deg);
+}
+/* Flip Card Container */
+.flip-card {
+  background: transparent;
+  width: 100%;
+  height: 200px;
+  perspective: 1000px; /* Enables 3D effect */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Flip on hover */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* hides back when front is visible */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #facc15;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Front Side */
+.flip-card-front {
+  background: #fff;
+  color: #000;
+}
+
+/* Back Side */
+.flip-card-back {
+  background: #facc15;
+  color: #111;
+  transform: rotateY(180deg);
+}
+
+
+
